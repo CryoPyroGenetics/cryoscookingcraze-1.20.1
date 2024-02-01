@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cryoscookingcraze",
+	"version": "${version}",
+	"name": "CryosCookingCraze",
+	"description": "FOOD",
+	"authors": [
+		"CryoPyroGenetics"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cryoscookingcraze/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cryopyrogenetics.cryoscookingcraze.CryosCookingCraze"
+		],
+		"client": [
+			"com.cryopyrogenetics.cryoscookingcraze.CryosCookingCrazeClient"
+		],
+		"fabric-datagen": [
+			"com.cryopyrogenetics.cryoscookingcraze.CryosCookingCrazeDataGenerator"
+		]
+	},
+	"mixins": [
+		"cryoscookingcraze.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

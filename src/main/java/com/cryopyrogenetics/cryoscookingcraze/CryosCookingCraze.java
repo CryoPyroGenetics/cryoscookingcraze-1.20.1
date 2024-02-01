@@ -1,5 +1,7 @@
 package com.cryopyrogenetics.cryoscookingcraze;
 
+import com.cryopyrogenetics.cryoscookingcraze.item.ModItemGroups;
+import com.cryopyrogenetics.cryoscookingcraze.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -10,7 +12,8 @@ public class CryosCookingCraze implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("cryoscookingcraze");
 
 	@Override
-	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+	public void onInitialize(){
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
