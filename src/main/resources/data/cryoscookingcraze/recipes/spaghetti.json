@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "cryoscookingcraze:pasta"
+    },
+    {
+      "item": "cryoscookingcraze:sauce"
+    }
+  ],
+  "result": {
+    "item": "cryoscookingcraze:spaghetti",
+    "count": 1
+  }
+}

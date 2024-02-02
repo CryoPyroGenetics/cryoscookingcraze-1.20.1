@@ -1,6 +1,7 @@
 package com.cryopyrogenetics.cryoscookingcraze.item;
 
 import com.cryopyrogenetics.cryoscookingcraze.CryosCookingCraze;
+import com.cryopyrogenetics.cryoscookingcraze.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SPAGHETTI);
                         entries.add(ModItems.SAUCE);
                         entries.add(ModItems.PASTA);
+
+                        entries.add(ModBlocks.RAW_URANIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

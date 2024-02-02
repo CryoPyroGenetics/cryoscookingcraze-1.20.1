@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+      "all": "cryoscookingcraze:block/raw_uranium_block"
+  }
+}

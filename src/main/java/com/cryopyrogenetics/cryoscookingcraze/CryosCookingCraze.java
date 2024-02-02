@@ -1,5 +1,6 @@
 package com.cryopyrogenetics.cryoscookingcraze;
 
+import com.cryopyrogenetics.cryoscookingcraze.block.ModBlocks;
 import com.cryopyrogenetics.cryoscookingcraze.item.ModItemGroups;
 import com.cryopyrogenetics.cryoscookingcraze.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -13,7 +14,12 @@ public class CryosCookingCraze implements ModInitializer {
 
 	@Override
 	public void onInitialize(){
-		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
-	}
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		//Adding items as a fuel format
+		//FuelRegistry.INSTANCE.add(PASTA, 300);
+    }
 }

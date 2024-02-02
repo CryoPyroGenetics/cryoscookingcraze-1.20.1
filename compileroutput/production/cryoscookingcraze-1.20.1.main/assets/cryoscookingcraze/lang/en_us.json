@@ -3,5 +3,10 @@
   "item.cryoscookingcraze.sauce": "Sauce",
   "item.cryoscookingcraze.pasta": "Pasta",
 
+  "block.cryoscookingcraze.raw_uranium_block": "Block of Raw Uranium",
+
+  "item.cryoscookingcraze.spaghetti.tooltip": "This is SPAGHETTI",
+  "item.cryoscookingcraze.sauce.tooltip": "SAUCE! ! !  ! ! ",
+
   "itemgroup.ccc": "Cryo's Cooking Craze"
 }

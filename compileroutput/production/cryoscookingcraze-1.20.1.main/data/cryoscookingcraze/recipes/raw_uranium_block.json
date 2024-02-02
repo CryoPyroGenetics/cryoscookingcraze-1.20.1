@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#D#",
+    "D#D",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:raw_gold"
+    },
+    "D": {
+      "item": "minecraft:raw_iron"
+    }
+  },
+  "result": {
+    "item": "cryoscookingcraze:raw_uranium_block",
+    "count": 1
+  }
+}
