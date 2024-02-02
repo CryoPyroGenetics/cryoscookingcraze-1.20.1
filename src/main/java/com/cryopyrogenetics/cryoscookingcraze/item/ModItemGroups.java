@@ -10,11 +10,13 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CryosCookingCraze.MOD_ID, "ruby"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
-                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
+    public static final ItemGroup CCC_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(CryosCookingCraze.MOD_ID, "ccc"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ccc"))
+                    .icon(() -> new ItemStack(ModItems.SPAGHETTI)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.SPAGHETTI);
+                        entries.add(ModItems.SAUCE);
+                        entries.add(ModItems.PASTA);
                     }).build());
 
     public static void registerItemGroups() {

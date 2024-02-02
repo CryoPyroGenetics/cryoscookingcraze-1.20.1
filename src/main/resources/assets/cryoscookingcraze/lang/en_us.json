@@ -1,5 +1,7 @@
 {
-  "item.cryoscookingcraze.ruby": "Ruby",
+  "item.cryoscookingcraze.spaghetti": "Spaghetti",
+  "item.cryoscookingcraze.sauce": "Sauce",
+  "item.cryoscookingcraze.pasta": "Pasta",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "itemgroup.ccc": "Cryo's Cooking Craze"
 }

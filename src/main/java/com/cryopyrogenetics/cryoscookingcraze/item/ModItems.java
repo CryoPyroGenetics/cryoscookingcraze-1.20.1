@@ -12,10 +12,14 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item SPAGHETTI = registerItem("spaghetti", new Item(new FabricItemSettings()));
+    public static final Item SAUCE = registerItem("sauce", new Item(new FabricItemSettings()));
+    public static final Item PASTA = registerItem("pasta", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
+        entries.add(SPAGHETTI);
+        entries.add(SAUCE);
+        entries.add(PASTA);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CryosCookingCraze.MOD_ID, name), item);
@@ -23,6 +27,6 @@ public class ModItems {
     public static void registerModItems() {
         CryosCookingCraze.LOGGER.info("Registering Mod Items for " + CryosCookingCraze.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 }
