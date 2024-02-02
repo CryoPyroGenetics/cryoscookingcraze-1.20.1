@@ -16,6 +16,7 @@ public class CryosCookingCraze implements ModInitializer {
 	public void onInitialize(){
 		ModItemGroups.registerItemGroups();
 
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 

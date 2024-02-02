@@ -6,8 +6,10 @@
   "block.cryoscookingcraze.raw_uranium_block": "Block of Raw Uranium",
   "block.cryoscookingcraze.sound_block": "Sound Block",
 
-  "item.cryoscookingcraze.spaghetti.tooltip": "This is SPAGHETTI",
-  "item.cryoscookingcraze.sauce.tooltip": "SAUCE! ! !  ! ! ",
+  "tooltip.cryoscookingcraze.spaghetti.tooltip": "The spaget is very yummm, mmmm yes",
+  "tooltip.cryoscookingcraze.sauce.tooltip": "its not jam",
+  "tooltip.cryoscookingcraze.pasta.tooltip": "can 1 noodle be considered \"pasta\"",
+  "tooltip.cryoscookingcraze.sound_block.tooltip": "testing",
 
   "itemgroup.ccc": "Cryo's Cooking Craze"
 }
