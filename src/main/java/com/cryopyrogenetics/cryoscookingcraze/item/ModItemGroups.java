@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PASTA);
 
                         entries.add(ModBlocks.RAW_URANIUM_BLOCK);
+                        entries.add(ModBlocks.SOUND_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

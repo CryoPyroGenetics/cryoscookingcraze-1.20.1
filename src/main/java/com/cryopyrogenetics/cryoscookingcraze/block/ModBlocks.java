@@ -1,6 +1,7 @@
 package com.cryopyrogenetics.cryoscookingcraze.block;
 
 import com.cryopyrogenetics.cryoscookingcraze.CryosCookingCraze;
+import com.cryopyrogenetics.cryoscookingcraze.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -16,6 +17,8 @@ public class ModBlocks {
 
     public static final Block RAW_URANIUM_BLOCK = registerBlock("raw_uranium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

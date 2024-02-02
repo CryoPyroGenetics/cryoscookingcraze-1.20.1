@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item SPAGHETTI = registerItem("spaghetti", new Item(new FabricItemSettings()));
+    public static final Item SPAGHETTI = registerItem("spaghetti", new Item(new FabricItemSettings().food(ModFoodComponents.SPAGHETTI)));
     public static final Item SAUCE = registerItem("sauce", new Item(new FabricItemSettings()));
     public static final Item PASTA = registerItem("pasta", new Item(new FabricItemSettings()));
 
