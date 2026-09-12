@@ -15,7 +15,7 @@ public class ItemWithTooltip extends Item {
         this.tooltip = tooltip;
     }
 
-    private final Text tooltip;
+    private final Text tooltip; //what are you hiding
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
